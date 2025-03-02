@@ -111,3 +111,30 @@ Number of passengers who were alone:  610
 
 55.5% of passengers were travelling alone, while only 44.5% travelled with family.
 
+## Bivariate Analysis
+
+### Passenger Class vs Survival
+
+![pclass_vs_survival](images/pclass_vs_survival_bar.png)
+![pclass_vs_survival](images/pclass_vs_survival_pie.png)
+
+Passengers in elite classes exhibited a significantly higher survival rate compared to those in 3rd class, suggesting that priority may have been given to elite passengers during the rescue operations.
+
+### Sex vs Survival
+
+![sex_vs_survival](images/sex_vs_survival_bar.png)
+![sex_vs_survival](images/sex_vs_survival_pie.png)
+
+Female passengers exhibited a significantly higher survival rate (73.4%) compared to male passengers (22.3%), indicating that rescue operations have prioritized females.
+
+### Age vs Survival
+![age_vs_survival](images/age_vs_survival.png)
+
+Children (0-20) and middle-aged (30-60) passengers experienced higher survival rates compared to young adults (20-30), while passengers aged 60 and above had the lowest survival rate. This pattern suggests that rescue efforts may have been influenced by age, potentially prioritizing the very young and middle-aged, while the elderly were at a distinct disadvantage during the tragedy.
+
+### Travelling Alone? vs Survival
+![alone_vs_survival](images/alone_vs_survival_bar.png)
+![alone_vs_survival](images/alone_vs_survival_pie.png)
+
+Passengers accompanied by family had a survival rate of 51.4%, compared to only 34.8% for those travelling alone. This suggests that the presence of family provided crucial support during the emergency, potentially leading to prioritized rescue efforts and improved survival odds.
+
