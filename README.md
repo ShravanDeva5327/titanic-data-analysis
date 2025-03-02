@@ -46,3 +46,68 @@ The following data cleaning steps were performed:
   Combined the `sibsp` and `parch` columns into a single, more informative feature named `is_alone`.
 
 After these cleaning steps, the dataset was reduced to 1100 rows and 6 columns.
+
+
+## Univariate Analysis
+
+### Age Distribution
+```
+Mean: 29.8
+Median: 28.0
+Standard Deviation: 13.88
+Skewness: 0.45
+Kurtosis: 0.44
+```
+![Age Distribution](images/age_dist.png)
+
+The Age distribution is right-skewed, suggesting that more young people traveled than older individuals.
+
+### Fare Distribution
+```
+Mean: 36.93
+Median: 16.1
+Standard Deviation: 55.31
+Skewness: 4.07
+Kurtosis: 23.31
+```
+![Fare Distribution](images/fare_dist.png)
+
+The Fare distribution is highly right-skewed, suggesting that the majority of passengers opted for cheaper tickets. The long right tail indicates that while most passengers paid lower fares, a smaller group paid significantly higher fares.
+
+### Sex Distribution
+```
+Number of male passengers:  428
+Number of female passengers:  672
+```
+![Sex Distribution](images/sex_dist.png)
+
+More men were aboard than women.
+
+### Passenger Class Distribution
+```
+Number of passengers in 1st class:  312
+Number of passengers in 2nd class:  241
+Number of passengers in 3rd class:  547
+```
+![PClass Distribution](images/pclass_dist.png)
+
+Almost half of the passengers were travelling in 3rd class, while only a few were travelling in 1st and 2nd classes.
+
+### Survival Analysis
+```
+Number of passengers who survived:  464
+Number of passengers who did not survive:  636
+```
+![Survival](images/survival.png)
+
+42.2% of passengers survived, while the rest perished in the tragedy.
+
+### Travelling Alone?
+```
+Number of passengers who were not alone:  490
+Number of passengers who were alone:  610
+```
+![Travelling Alone](images/travelling_alone.png)
+
+55.5% of passengers were travelling alone, while only 44.5% travelled with family.
+
